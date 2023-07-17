@@ -4,7 +4,8 @@
 
 
 function garvesData(arr,...newData){
-    console.log(newData.pop());
+
+       console.log(newData.pop());
 }
 
 let rewc = garvesData([
