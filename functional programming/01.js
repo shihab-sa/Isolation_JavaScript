@@ -4,12 +4,21 @@
 
 
 function garvesData(arr,...newData){
+     
 
-       console.log(newData.pop());
+    //console.log(arr);
+    //console.log(newData);
+
+   
+    let dataPop = newData.pop()
+    let data = newData.flat()
+    console.log(data);
+    
+   
+  
 }
 
-let rewc = garvesData([
+ garvesData([
     {name:'shihan',age:34},
     {name:"rakib",age:44}      ],
 [{name:'sada',age:55}],(x)=>x.data === x.data)
-console.log(rewc);

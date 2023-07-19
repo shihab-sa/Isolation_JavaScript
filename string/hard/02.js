@@ -14,9 +14,9 @@ function words(str){
       let curretWord = wordArray[i]
       let nextWord = wordArray[i+1]
       
-      //console.log("last character of all words = ",curretWord[curretWord.length-1]);
+      console.log("last character of all words = ",curretWord[curretWord.length-1]);
       console.log("First character of all words = ",curretWord[0]);
-      //console.log("First character of all words{Next word} = ", nextWord[0]);
+      console.log("First character of all words{Next word} = ", nextWord[0]);
       
    }
 
