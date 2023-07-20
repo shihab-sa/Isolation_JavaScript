@@ -1,26 +1,23 @@
-// Seven Boom!
-// Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array. Otherwise, return "there is no 7 in the array".
+/*
 
-// Examples
-// sevenBoom([1, 2, 3, 4, 5, 6, 7]) ➞ "Boom!"
-// // 7 contains the number seven.
-
-// sevenBoom([8, 6, 33, 100]) ➞ "there is no 7 in the array"
-// // None of the items contain 7 within them.
-
-// sevenBoom([2, 55, 60, 97, 86]) ➞ "Boom!"
-// // 97 contains the number seven.
-// Notes
-// N/A
+একটা number of Array এর ভিতরে 7 আছে কি না চেক করবে কি ভাবে
+You sent
+arr[i] == 7।। arr[i] % 10 == 7
+You sent
+arr[i].toString().includes(7)
 
 
+এখানে return করতে বলছে "boom" / এই জন্যে toString() করে নিয়েছি
+
+
+*/
 
 function sevenBoom(arr){
 
     for(let i=0; i<arr.length; i++){
-        if(arr[i]%7 ==0){
-            return 'boom'
-        }
+         if(arr[i].toString().includes(7)){
+            return "boom"
+         }
     }
     return 'not boom'
 
