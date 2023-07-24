@@ -1,0 +1,1 @@
+// return bol ? 0 : 1

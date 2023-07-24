@@ -1,16 +1,14 @@
 /*
 
 একটা number of Array এর ভিতরে 7 আছে কি না চেক করবে কি ভাবে
-You sent
 arr[i] == 7।। arr[i] % 10 == 7
-You sent
 arr[i].toString().includes(7)
-
-
 এখানে return করতে বলছে "boom" / এই জন্যে toString() করে নিয়েছি
 
 
 */
+
+
 
 function sevenBoom(arr){
 

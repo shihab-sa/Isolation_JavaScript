@@ -5,9 +5,9 @@ let generation = {
     "0":{m:"me!", f:"me!"},
     "1":{m:"son",f:"daughter"},
     "2":{m:"grandson",f:"granddaughter"},
-    "3":{m:"great grandson",f:"great granddaughter"
+    "3":{m:"great grandson",f:"great granddaughter"}
 }
 
 
 
-console.log(generation([2]["m"]));
+console.log(generation[2]['m']);
